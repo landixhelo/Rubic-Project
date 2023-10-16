@@ -1,0 +1,614 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Navbar*/
+
+#navbar {
+    background: #333;
+    height:70px;
+    width: 100%;
+    position: fixed;
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.logo h1 span {
+    color: #ff9a44;
+}
+
+#navbar ul{
+    justify-content: end;
+    overflow: hidden;
+}
+
+#navbar .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar .navigation li {
+    float: left;
+}
+
+#navbar .navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: end;
+}
+
+
+/*Home*/
+
+#home {
+    padding: 70px;
+    background-image: url(../img/header.jpg);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+#home img {
+    opacity: 0.5;
+}
+
+.rubic h1 {
+    color: rgb(100, 99, 99);
+    font-size: 45px;
+}
+
+.rubic h1 span {
+    color: #ff9a44;
+}
+
+.rubic h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.rubic hr {
+    border: 3px solid white;
+    width: 60px;
+    border-radius: 20px;
+}
+
+.rubic p {
+    font-size: 15px;
+    color: white;
+}
+
+.rubic button {
+    background: none;
+    padding: 10px 22px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white ;
+}
+
+form {
+    background-color: white;
+}
+
+.form h1 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 450;
+    padding: 20px;
+}
+
+.form h1 span {
+    color: #ff9a44;
+}
+
+.form input {
+    margin: 30px 0;
+}
+
+.form button {
+    background-color: #ff9a44;
+    text-decoration: none;
+    width: 100%;
+    border:1px solid #ff9a44;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*Features*/
+
+.social-dsc {
+    margin: 30px;
+}
+
+.social-dsc h1 {
+    font-size: 20px;
+}
+
+.social-icon {
+    margin: 30px;
+}
+
+.social-icon i {
+    font-size: 40px;
+    margin: 0px 30px;
+    opacity: 0.7;
+}
+
+.social-icon i:hover {
+    color:  #ff9a44;
+}
+
+.social-icon {
+    text-shadow: 1px black;
+}
+
+/*Tabs*/
+
+.tab-content {
+    height: 400px;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.nav a:visited {
+    color: #ff9a44;
+}
+
+.nav-link {
+    background: rgb(192, 187, 187);
+    color:#333;
+    width: 100px;
+    height: 90px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.nav a {
+    padding-top: 35px;
+}
+.nav a:focus {
+    color: #333;
+    background-color: #ff9a44;
+}
+
+.nav a:active {
+    color: #333;
+    background-color: #ff9a44;
+}
+
+.tab-pane button {
+    background-color: #ff9a44;
+    border: 1px solid #ff9a44;
+    padding: 5px 10px;
+}
+
+.tab-content .tab-pane {
+    padding-top: 25px;
+    line-height: 25px;
+    padding-left: 25px;
+}
+
+.tab-content .tab-pane h1 {
+    font-size: 20px;
+}
+
+.tab-content .tab-pane p {
+    font-size: 15px;
+    font-weight: 300;
+    width: 500px;
+}
+
+.tab-content .tab-pane h2 {
+    font-size: 17px;
+}
+
+.eiffel img  {
+    height: 370px;
+}
+
+/*Featueres 02*/
+
+.container-fluid {
+    width: 100%;
+}
+
+.cityy {
+    width: 100%;
+    margin-top: 80px;
+    background-color:whitesmoke;
+}
+
+.city img {
+    width: 450px;
+    margin: 130px 70px;
+}
+
+.city-dsc h2 {
+    font-size: 23px;
+    padding-top: 70px;
+}
+
+.city-dsc p {
+    font-size: 15px;
+    width: 400px;
+}
+
+.city-icon i {
+    font-size: 30px;
+    color: #ff9a44;
+}
+
+.city-icon h2 {
+    font-size: 15px;
+}
+
+.city-icon p {
+    font-size: 16px;
+}
+
+.col-md-5 {
+    display: inline-block;
+}
+
+/*Features 3*/
+
+.standart {
+    width: 500px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 90px;
+}
+
+.standart h1 {
+    font-size: 23px;
+}
+
+.standart p {
+    font-size: 16px;
+}
+
+.standart h2 {
+    font-size: 23px;
+}
+
+.standart img {
+    width: 450px;
+    margin-left: 150px;
+}
+
+/*About*/
+
+#about {
+    padding: 100px 30px;
+    background-color: rgb(224, 250, 241);
+}
+
+.header-txt h1 {
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.header-txt hr {
+    border: 2px solid #ff9a44;
+    width: 98px;
+    margin-left: 570px;
+}
+
+.header-txt p {
+    text-align: center;
+    font-size: 15px;
+}
+
+.about-1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.about-1 i {
+    font-size: 30px;
+    color: #ff9a44;
+}
+
+.about-1 h1 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.about-1 p {
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*Pricing*/
+
+.head-text {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.head-text h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.head-text hr {
+    text-align: center;
+    border: 2px solid;
+    width: 70px;
+    margin-left: 600px;
+    color: #ff9a44;
+}
+
+.head-text p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.cards .card {
+    background-color: #333;
+    width: 350px;
+    left: 50px;
+    text-align: center;
+}
+
+.card-body h5 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.card-body h4 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.card-body small {
+    font-size: 20px;
+}
+
+.card-body p {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.aaa {
+    background-color: #ff9a44;
+}
+
+.card-body  h3 {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    background-color: #ff9a44;
+    text-align: center;
+}
+
+.aaa h3 {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background: #ff9a44;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/*Pricing-1*/
+
+.card-text {
+    display: flex;
+}
+
+#pricing-1 {
+    margin-top: 150px;
+    height: 600px;
+    background-color:rgb(224, 250, 241) ;
+}
+
+.customers .card-text .person-1 img  {
+    width: 50px;
+    border-radius: 40px ;
+}
+
+#pricing-1 .heading-pricing {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+#pricing-1 .heading-pricing h1 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+#pricing-1 .heading-pricing hr {
+    border: 2px solid #ff9a44;
+    width: 60px;
+    margin-left: 620px;
+}
+
+#pricing-1 .heading-pricing p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#pricing-1 .customers .card  {
+    width: 250px;
+}
+
+#pricing-1 .customers .card .cards {
+    padding: 10px;
+    background-color: rgb(180, 221, 221);
+}
+
+#pricing-1 .customers .card .cards p {
+    font-size: 15px;
+    color: grey;
+}
+
+#pricing-1 .customers .card .card-text {
+    padding-top: 20px;
+    background-color: rgb(224, 250, 241);
+}
+
+#pricing-1 .customers .card .person-dsc h1 {
+    font-size: 15px;
+}
+
+#pricing-1 .customers .card .person-dsc p {
+    font-size: 14px;
+    color: grey;
+}
+
+#pricing-1 .col-md-4 {
+    padding-left: 300px;
+    margin-left: -100px;
+}
+
+#pricing-1 .card {
+    border: 1px solid rgb(224, 250, 241) ;
+}
+
+/*Reviews*/
+
+#reviews {
+    background-image: url(../img/bg-img.jpg);
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#reviews .container-fluid {
+    height: 400px;
+}
+
+#reviews .reviews-text {
+    text-align: center;
+    padding-top : 100px;
+}
+
+#reviews .reviews-text h1 {
+    font-size: 50px;
+    font-weight: 300;
+    color: white;
+}
+
+#reviews .reviews-text hr {
+    border: 1px solid #ff9a44;
+    width:80px;
+    margin-left: 620px;
+}
+
+#reviews .reviews-text p {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+}
+
+#reviews .reviews-text button {
+    background: none;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    padding: 5px 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+#reviews .reviews-text button:hover {
+    background:grey;
+    color: white;
+    border: 1px solid grey;
+    transition: all 200ms linear;
+}
+
+/*Contact*/
+
+#contact {
+    padding-bottom: 40px;
+    background-color: rgb(224, 250, 241);
+}
+
+#contact .contact-head {
+    text-align: center;
+    padding: 120px 0 40px 0;
+}
+
+#contact .contact-head h1 {
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#contact .contact-head hr {
+    border: 1px solid #ff9a44;
+    width: 60px;
+    margin-left: 630px;
+}
+
+
+#contact .contact-head p {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+#contact .forms form .col input {
+    margin-bottom: 20px;
+}
+
+#contact .forms {
+    width: 600px;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+#contact .forms .col {
+    background-color: rgb(224, 250, 241);
+}
+
+#contact .btn {
+    background-color: #ff9a44;
+    border: #ff9a44;
+    color: #333;
+    width: 1170px;
+    margin-left: 65px;
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+    height: 110px;
+    background-color: #333;
+    color: white;
+}
+
+.footer .container {
+    padding-top: 15px;
+}
+
+.footer .social-links i {
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+}
+
